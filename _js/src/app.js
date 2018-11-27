@@ -10,3 +10,12 @@ $('.dropdown-chevron-mobile').on('click', function(e) {
   parent.children('ul').toggleClass('open');
 
 });
+
+
+// Make sure scripts rendered
+$(document).ready(function (){
+	console.log('document is ready, aww yeah');
+});
+
+
+
